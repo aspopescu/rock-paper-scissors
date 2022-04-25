@@ -9,9 +9,9 @@ let result;
 choiceButtons.forEach(button => button.addEventListener("click", () => {
     player = button.textContent;
     computerTurn();
-    playerText.textContent = `Player: ${player}`;
-    computerText.textContent = `Computer: ${computer}`;
-    gameText.textContent = `Result: ${checkWinner()}`;
+    playerText.textContent = `Spop: ${player}`;
+    computerText.textContent = `Gaspar: ${computer}`;
+    gameText.textContent = `Winner: ${checkWinner()}`;
 }));
 
 function computerTurn(){
@@ -34,12 +34,12 @@ function checkWinner(){
         return "Draw!";
     }
     else if (computer == "ROCK"){
-        return (player == "PAPER") ? "You Win!" : "You Lost!";
+        return (player == "PAPER") ? "Sorin!" : "Decoy Mapucci!";
     }
     else if (computer == "PAPER"){
-        return (player == "SCISSORS") ? "You Win!" : "You Lost!";
+        return (player == "SCISSORS") ? "Sorin!" : "Decoy Mapucci!";
     }
     else if (computer == "SCISSORS"){
-        return (player == "ROCK") ? "You Win!" : "You Lost!";
+        return (player == "ROCK") ? "Sorin!" : "Decoy Mapucci!";
     }
 };
