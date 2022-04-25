@@ -1,0 +1,30 @@
+#gameDiv{
+    width: 350px;
+    border: 3px solid;
+    border-radius: 17px;
+    background-color: #222222;
+}
+#textsDiv{
+    color: #40c437;
+    font-family: consolas, monospace;
+}
+#playerText{
+    color:darkturquoise
+}
+#computerText{
+    color: burlywood;
+}
+#buttonsDiv{
+    text-align: center;
+}
+.choiceButton{
+    width: 100px;
+    height: 50px;
+    border: 3px solid;
+    border-radius: 17px;
+    background-color: #333333;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
